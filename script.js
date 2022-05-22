@@ -3,11 +3,15 @@ var items_on_page = items_real + 2;
 var step = 15;
 var items_array = new Array(items_on_page);
 
+//console.log(items_array);
+
 var s_width = window.innerWidth;
 var s_height = window.innerHeight;
 console.log(s_width + ' ' + s_height);
 var stage, bmp;
 var container;
+
+
 
 function init() {
 
